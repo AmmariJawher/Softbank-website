@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	background: #ffffff;
+
+}
+
+.container {
+	width: ;
+	margin: 100 auto;
+}
+
+.logo {
+	float: left;
+}
+
+nav {
+	margin-right: auto;
+	margin-left: auto;
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline;
+}
