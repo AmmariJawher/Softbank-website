@@ -1,43 +1,166 @@
 body {
 	margin: 0;
-	background: #EFEFEF;
-
+	background: #dgs;
+	font-family: arial, sans-serif;
 }
+
+a{
+	text-decoration-line: none;
+}
+
+li{
+	display: inline-block;
+}
+
+/* navigator bar style */
 
 header {
-	margin: 0 auto;
 	background-color: #FFF;
-	padding: 21px;
+	box-shadow: 0px 0px 20px #ccc;
 }
 
-.nav-bar{
-	width: 73%;
+.container{
+	width: 71%;
 	margin: auto;
 }
 
 nav{
-	margin: 0  180px 0 180px;
-	text-align: center;
+	margin: 0  180px 0 145px;
+	text-align: center;	
 }
 
 .logo {
 	float: left;
+	padding-top: 21px
 }
 
 nav ul {
 	margin: 0;
-	padding: 3px 55px 0 0;
+	padding: 25px 0 19px 0;
 	list-style: none;
 }
 
 nav li {
-	display: inline-block;
 	margin-left: 15px;
 }
 
-nav li a{
+nav a{
 
-	color: black;
+	color: #000;
 	font-family: arial, sans-serif;
-	text-decoration-line: none;
+}
+
+nav a:hover{
+	color: #bbb;
+}
+
+/* cleaning style */
+
+.clr{
+	clear: both;
+}
+
+
+#slider{
+	background-image: url("../img/image.jpg");
+	background-size: auto 550px;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 550px;
+	border-bottom: solid #E6E6EE 1px;
+}
+
+
+.info-bar{
+	background-color: #FFF;
+	display: inline;
+}
+
+.blue-box{
+	float: left;
+	background-color: #357EEC;
+	width: 220px;
+	height: 90px
+}
+
+.blue-box p{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	padding-top: 20px;
+}
+
+.white-box{
+	float: left;
+	width: 500px;
+	height: 90px
+	background: #fff;
+}
+
+.white-box p{
+	padding: 0px 0 0px 50px;
+	line-height: 10px;
+	color: #333;
+}
+
+.apology {
+	padding-top: 10px;
+}
+
+.apology a{
+	color: #333;
+}
+
+.apology a:hover{
+	color: #777;
+}
+
+.date {
+	font-size: 14px;
+}
+/* Mobile Servives */
+
+
+.mobile-service-header{
+	text-align: center;
+	background-image: url("../img/mobile-services.png");
+	background-size: auto 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #F3F4F6;
+	height: 210px;
+	margin-top: 0;
+	line-height: 25px;
+	border-top: solid 1px #fff;
+
+}
+
+.mobile-service-header-content{
+		padding-top: 68px;
+}
+
+.mobile-service-header h1{
+	font-size: 32px;
+	margin-top: 0;
+	padding-top: 5px
+}
+
+.mobile-service-header p{
+	color: #333;
+}
+
+.mobile-service-list{
+	text-align: center;
+	margin: 0;
+	background-color: #6A7682;
+	padding: 45px 0;
+
+}
+
+.mobile-service-list ul{
+}
+.mobile-service-list a{
+	color: #fff;
+	margin: 0 50px;
 }
