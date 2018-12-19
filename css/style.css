@@ -166,14 +166,14 @@ nav a:hover{
 }
 
 
-/* grid */
+/* Discover */
 
-#boxes{
+#discover{
 	background-color: #F4F5F6;
 	padding-top: 40px;
 }
 
-.grid{
+.discover-grid{
 	display: grid;
 	grid-template-columns: 310px 310px 310px;
 	grid-gap: 10px;
@@ -181,27 +181,104 @@ nav a:hover{
 	width: 73%;
 	margin: auto;
 	padding-bottom: 80px;
-
-
 }
 
-.box{
+.discover-grid-box{
 	float: left;
 	height: 313px;
 	background-color: #FFFFFF;
 	text-align: center;
 }
 
-.box img{
+.discover-grid-box img{
 	margin: auto;
 	padding-top: 30px;
 	width: 215px;
 	height: 215px;
 }
 
-.box h1{
+
+.discover-grid-box h1{
 	font-size: 16px;
 	color: #333;
 	font-weight: normal;
 }
 
+/* Services */
+
+#services{
+	padding-top: 68px;
+	text-align: center;
+}
+
+
+.services-header h1{
+	font-size: 32px;
+	margin-top: 0;
+	padding-top: 5px
+}
+
+.services-header p{
+	color: #333;
+	margin-bottom: 30px;
+}
+
+.services-grid{
+	display: grid;
+	grid-template-columns: 432px 420px 420px;
+	grid-gap: 5px;
+	text-align: center;
+	padding: 0 10px;
+	margin: auto;
+	padding-bottom: 80px;
+}
+
+a:hover .animated-img{
+	opacity: 0.6;
+  	transition: .2s ease;
+
+}
+
+.services-grid-box{
+	float: left;
+	height: 430px;
+	background-color: #FFFFFF;
+	position: relative;
+}
+
+.services-grid-box img{
+	margin: auto;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.services-grid-box-info{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	text-align: left;
+	padding: 0 0 37px 30px;
+
+}
+
+
+.services-grid-box-info p{
+	color: #FFFFFF;
+	margin: 24px 0 0 0;
+	line-height: 0px;
+	text-shadow: 1px 1px 3px black; 
+}
+
+.services-grid-box-info-field{
+	font-size: 12px
+}
+.services-grid-box-info-product{
+	font-size: 18px;
+}
+.services-grid-box-info-description{
+	font-size: 15px;
+}
