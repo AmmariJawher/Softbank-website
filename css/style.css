@@ -95,7 +95,7 @@ nav a:hover{
 	float: left;
 	background-color: #357EEC;
 	width: 220px;
-	height: 90px
+	height: 90px;
 }
 
 .blue-box p{
@@ -139,8 +139,8 @@ nav a:hover{
 
 .mobile-service-header{
 	text-align: center;
-	background-image: url("../img/mobile-services.png");
-	background-size: auto 400px;
+	background-image: url("../img/bg-mobile-service.jpg");
+	background-size: auto 216px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: #F3F4F6;
@@ -260,7 +260,7 @@ nav a:hover{
 
 .services-header p{
 	color: #333;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 
 .services-grid{
@@ -268,8 +268,9 @@ nav a:hover{
 	grid-template-columns: 432px 420px 420px;
 	grid-gap: 5px;
 	text-align: center;
-	padding: 0 10px;
-	margin: auto;
+	width: 1280px;
+	padding: 0;
+	margin: 0 auto;
 	padding-bottom: 80px;
 }
 
@@ -293,6 +294,10 @@ nav a:hover{
 }
 
 .services-grid-box-info{
+	background-image: url("../img/index.png");
+	background-repeat: repeat-x;
+	background-position: center top;
+	box-sizing: border-box;
 	width: 100%;
 	position: absolute;
 	bottom: 0;
@@ -305,7 +310,6 @@ nav a:hover{
 	color: #FFFFFF;
 	margin: 24px 0 0 0;
 	line-height: 0px;
-	text-shadow: 1px 1px 3px black; 
 }
 
 .services-grid-box-info-field{
