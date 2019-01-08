@@ -1,3 +1,5 @@
+/* some fundemental styling to avoid dublication the same code */
+
 body {
 	margin: 0;
 	background: #dgs;
@@ -54,12 +56,13 @@ nav a:hover{
 	color: #bbb;
 }
 
-/* cleaning style */
 
+/* cleaning style */
 .clr{
 	clear: both;
 }
 
+/* slider section */
 
 #slider{
 	background-image: url("../img/image.jpg");
@@ -70,6 +73,7 @@ nav a:hover{
 	border-bottom: solid #E6E6EE 1px;
 }
 
+/* important info bar */
 
 .info-bar{
 	background-color: #FFF;
@@ -119,8 +123,8 @@ nav a:hover{
 .date {
 	font-size: 14px;
 }
-/* Mobile Servives */
 
+/* Mobile Servives */
 
 .mobile-service-header{
 	text-align: center;
@@ -155,7 +159,6 @@ nav a:hover{
 	margin: 0;
 	background-color: #6A7682;
 	padding: 45px 0;
-
 }
 
 .mobile-service-list ul{
@@ -164,7 +167,6 @@ nav a:hover{
 	color: #fff;
 	margin: 0 50px;
 }
-
 
 /* Discover */
 
@@ -210,7 +212,6 @@ nav a:hover{
 	padding-top: 68px;
 	text-align: center;
 }
-
 
 .services-header h1{
 	font-size: 32px;
@@ -265,7 +266,6 @@ a:hover .animated-img{
 
 }
 
-
 .services-grid-box-info p{
 	color: #FFFFFF;
 	margin: 24px 0 0 0;
@@ -281,4 +281,57 @@ a:hover .animated-img{
 }
 .services-grid-box-info-description{
 	font-size: 15px;
+}
+
+/* social media links */
+
+.social-media{
+	text-align: center;
+	background-color: #F4F5F6;
+	height: 300px;
+}
+
+.social-media-content{
+	margin: 0;
+	padding: 78px 0 80px 0;
+}
+
+.social-media-content h1{
+	font-size: 32px;
+	margin: 0;
+	padding: 0;
+}
+
+.social-media-content ul{
+	margin: 39px auto 0 auto;
+	padding: 0;
+	width: 360px;
+}
+
+.social-media-content li:first-child{
+	margin-left: 0;
+}
+
+.social-media-content li{
+	float: left;
+	margin-left: 30px;
+}
+
+/* news section */
+
+.news{
+	text-align: center;
+	background-color: #FFFFFF;
+	height: 300px;
+}
+
+.news-content{
+	margin: 0;
+	padding: 78px 0 80px 0;
+}
+
+.news-content h1{
+	font-size: 32px;
+	margin: 0;
+	padding: 0;
 }
