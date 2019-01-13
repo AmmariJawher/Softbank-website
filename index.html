@@ -1,255 +1,291 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
+
+  <!-- meta tags -->
+
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="img/index.ico">
+
+  <!-- my css -->
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <title>SoftBank</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <a href="#"><img class="logo" src="img/logo-rf2017-ph1.png" alt="logo"></a>
+      <nav>
+        <ul>
+          <li><a href="#">Mobile</a></li>
+          <li><a href="#">Internet</a></li>
+          <li><a href="#">Energy</a></li>
+          <li><a href="#">Robot</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- cleaning all the padding from the header -->
+  <div class="clr"></div>
 
 
-    <!-- meta tags -->
-
-    <meta charset="utf-8">
-    <link rel="shortcut icon" href="img/index.ico">
-
-
-	<!-- my css -->
-
-	<link rel="stylesheet" type="text/css" href="css/style.css"> 
-
-    <title>SoftBank</title>
-  </head>
-  <body>
-    <header>
-    	<div class="container">
-            <a href="#"><img class="logo" src="img/logo-rf2017-ph1.png" alt="logo"></a>
-		    <nav>
-                <ul>
-    			<li><a href="#">Mobile</a></li>
-    			<li><a href="#">Internet</a></li>
-    			<li><a href="#">Energy</a></li>
-    			<li><a href="#">Robot</a></li>
-    			<li><a href="#">Business</a></li>
-    			<li><a href="#">About Us</a></li>
-    		    </ul>
-            </nav>
-    	</div>
-    </header>
-
-
-    <!-- cleaning all the padding from the header -->
-    <div class="clr"></div>
-
-
-    <!-- non functional slider -->
-
-    <section id="slider">
+  <!-- non functional slider -->
+  <section id="slider">
     <!-- slider background -->
-    </section>
+  </section>
 
 
-    <!-- info box for important events -->
+  <!-- info box for important events -->
 
-    <section class="info-bar"> 
-        <div class="blue-box">
-                <p>Important Info</p>
+  <section class="info-bar">
+    <div class="blue-box">
+      <p>Important Info</p>
+    </div>
+    <div class="white-box">
+      <div class="apology">
+        <p class="date">Dec. 6, 2018</p>
+        <p><a href="#">Apology for Mobile Communication Service Troubles</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- cleaning all the padding from the header -->
+  <div class="clr"></div>
+
+
+  <!-- mobile services -->
+
+  <section class="mobile-service-header">
+    <div class="mobile-service-header-content">
+      <h1>Mobile Services</h1>
+      <p>Connect you to the World, Experience the best of the internet.</p>
+    </div>
+  </section>
+
+
+  <!-- mobile services highlight -->
+
+  <section>
+    <div class="mobile-service-list">
+      <ul>
+        <a href="">
+          <li class="highlighted-link"><img src="img/services-icon/icon-mobile-service-products.png"><span>Products</span></li>
+        </a>
+        <a href="">
+          <li class="highlighted-link"><img src="img/services-icon/icon-mobile-service-priceplan.png"><span>Price Plans</span></li>
+        </a>
+        <a href="">
+          <li class="highlighted-link"><img src="img/services-icon/icon-mobile-service-campaign.png"><span>Campaingns</span></li>
+        </a>
+        <a href="">
+          <li class="highlighted-link"><img src="img/services-icon/icon-mobile-service-shop.png"><span>Shop</span></li>
+        </a>
+        <a href="">
+          <li class="highlighted-link"><img src="img/services-icon/icon-mobile-service-service.png"><span>Services</span></li>
+        </a>
+        <a href="">
+          <li class="highlighted-link"><img src="img/services-icon/icon-mobile-service-support.png"><span>Support</span></li>
+        </a>
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- products showcase -->
+
+  <section id="discover">
+    <div class="discover-grid">
+      <div class="discover-grid-box">
+        <a href="">
+          <div class="highlighted-link">
+            <img src="img/img-mobileservice-iphone-20181127.jpg">
+            <h1>iPhone</h1>
+          </div>
+        </a>
+      </div>
+
+      <div class="discover-grid-box">
+        <a href="#">
+          <div class="highlighted-link">
+            <img src="img/img-mobileservice-ipad-20181108.jpg">
+            <h1>iPad</h1>
+          </div>
+        </a>
+      </div>
+
+      <div class="discover-grid-box">
+        <a href="#">
+          <div class="highlighted-link">
+            <img src="img/img-mobileservice-applewatch-20180921.jpg">
+            <h1>Apple Watch</h1>
+          </div>
+        </a>
+      </div>
+
+      <div class="discover-grid-box">
+        <a href="#">
+          <div class="highlighted-link">
+            <img src="img/img-mobileservice-pixel.jpg">
+            <h1>iPhone</h1>
+          </div>
+        </a>
+      </div>
+
+      <div class="discover-grid-box">
+        <a href="#">
+          <div class="highlighted-link">
+            <img src="img/img-mobileservice-smartphone.jpg">
+            <h1>iPad</h1>
+          </div>
+        </a>
+      </div>
+
+      <div class="discover-grid-box">
+        <a href="#">
+          <div class="highlighted-link">
+            <img src="img/img-mobileservice-keitai.jpg">
+            <h1>Apple Watch</h1>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- DEMO main services section -->
+
+  <section id="services">
+    <div class="services-header">
+      <h1>Services</h1>
+      <p>Introduction of the Main Services provided by SoftBank.</p>
+
+      <!-- CSS Grid Layout -->
+      <!-- WARNING: This can be done in a better way reather than repeating myself-->
+      <div class="services-grid">
+        <div class="services-grid-box">
+          <a href="#">
+            <img src="img/services-img/img-service-internet.jpg" class="highlighted-link">
+            <div class="services-grid-box-info" class="highlighted-link">
+              <p class="services-grid-box-info-field">Internet</p>
+              <p class="services-grid-box-info-product">SoftBank Air</p>
+              <p class="services-grid-box-info-description">AirHigh speed, fiber optic internet for you home.</p>
+            </div>
+          </a>
         </div>
-        <div class="white-box">
-            <div class="apology">
-                <p class="date">Dec. 6, 2018</p>
-                <p><a href="#">Apology for Mobile Communication Service Troubles</a></p>
+
+        <div class="services-grid-box">
+          <a href="#">
+            <img src="img/services-img/img-service-energy.jpg" class="highlighted-link">
+            <div class="services-grid-box-info" class="highlighted-link">
+              <p class="services-grid-box-info-field">Internet</p>
+              <p class="services-grid-box-info-product">SoftBank Air</p>
+              <p class="services-grid-box-info-description">AirHigh speed, fiber optic internet for you home.</p>
             </div>
+          </a>
         </div>
-    </section>
 
-    <!-- cleaning all the padding from the header -->
-    <div class="clr"></div>
-
-
-    <!-- mobile services -->
-
-    <section class="mobile-service-header">
-        <div class="mobile-service-header-content">
-            <h1>Mobile Services</h1>
-            <p>Connect you to the World, Experience the best of the internet.</p>
+        <div class="services-grid-box">
+          <a href="#">
+            <img src="img/services-img/img-service-robot.jpg" class="highlighted-link">
+            <div class="services-grid-box-info" class="highlighted-link">
+              <p class="services-grid-box-info-field">Internet</p>
+              <p class="services-grid-box-info-product">SoftBank Air</p>
+              <p class="services-grid-box-info-description">AirHigh speed, fiber optic internet for you home.</p>
+            </div>
+          </a>
         </div>
-    </section>
 
-
-    <!-- mobile services highlight -->
-
-    <section>
-        <div class="mobile-service-list">
-            <ul>
-                <a href=""><li class="highlighted-link"><img src="img/services-icon/icon-mobile-service-products.png"><span>Products</span></li></a>
-                <a href=""><li class="highlighted-link"><img src="img/services-icon/icon-mobile-service-priceplan.png"><span>Price Plans</span></li></a>
-                <a href=""><li class="highlighted-link"><img src="img/services-icon/icon-mobile-service-campaign.png"><span>Campaingns</span></li></a>
-                <a href=""><li class="highlighted-link"><img src="img/services-icon/icon-mobile-service-shop.png"><span>Shop</span></li></a>
-                <a href=""><li class="highlighted-link"><img src="img/services-icon/icon-mobile-service-service.png"><span>Services</span></li></a>
-                <a href=""><li class="highlighted-link"><img src="img/services-icon/icon-mobile-service-support.png"><span>Support</span></li></a>
-            </ul>
+        <div class="services-grid-box">
+          <a href="#">
+            <img src="img/services-img/img-service-card.jpg" class="highlighted-link">
+            <div class="services-grid-box-info" class="highlighted-link">
+              <p class="services-grid-box-info-field">Internet</p>
+              <p class="services-grid-box-info-product">SoftBank Air</p>
+              <p class="services-grid-box-info-description">AirHigh speed, fiber optic internet for you home.</p>
+            </div>
+          </a>
         </div>
-    </section>
 
-
-    <!-- products showcase -->
-
-    <section id="discover">
-        <div class="discover-grid">
-            <div class="discover-grid-box">
-                <a href="">
-                    <div class="highlighted-link">
-                        <img src="img/img-mobileservice-iphone-20181127.jpg">
-                        <h1>iPhone</h1>
-                    </div>
-                </a>
+        <div class="services-grid-box">
+          <a href="#">
+            <img src="img/services-img/img-service-accessory.jpg" class="highlighted-link">
+            <div class="services-grid-box-info" class="highlighted-link">
+              <p class="services-grid-box-info-field">Internet</p>
+              <p class="services-grid-box-info-product">SoftBank Air</p>
+              <p class="services-grid-box-info-description">AirHigh speed, fiber optic internet for you home.</p>
             </div>
-
-            <div class="discover-grid-box">
-                <a href="#">
-                    <div class="highlighted-link">
-                        <img src="img/img-mobileservice-ipad-20181108.jpg">
-                        <h1>iPad</h1>
-                    </div>
-                </a>
-            </div>
-
-            <div class="discover-grid-box">
-                <a href="#">
-                    <div class="highlighted-link">
-                        <img src="img/img-mobileservice-applewatch-20180921.jpg">
-                        <h1>Apple Watch</h1>
-                    </div>
-                </a>
-            </div>
-
-            <div class="discover-grid-box">
-                <a href="#">
-                    <div class="highlighted-link">
-                        <img src="img/img-mobileservice-pixel.jpg">
-                        <h1>iPhone</h1>
-                    </div>
-                </a>
-            </div>
-
-            <div class="discover-grid-box">
-                <a href="#">
-                    <div class="highlighted-link">
-                        <img src="img/img-mobileservice-smartphone.jpg">
-                        <h1>iPad</h1>
-                    </div>
-                </a>
-            </div>
-
-            <div class="discover-grid-box">
-                <a href="#">
-                    <div class="highlighted-link">
-                        <img src="img/img-mobileservice-keitai.jpg">
-                        <h1>Apple Watch</h1>
-                    </div>
-                </a>
-            </div>
+          </a>
         </div>
-    </section>
 
-
-    <!-- DEMO main services section -->
-
-    <section id="services">
-        <div class="services-header">
-            <h1>Services</h1>
-            <p>Introduction of the Main Services provided by SoftBank.</p>
-
-            <div class="services-grid">
-                <div class="services-grid-box">
-                    <a href="#">
-                        <img src="img/services-img/img-service-internet.jpg" class="highlighted-link">
-                        <div class="services-grid-box-info" class="highlighted-link">
-                            <p class="services-grid-box-info-field">Internet</p>
-                            <p class="services-grid-box-info-product">SoftBank Air</p>
-                            <p class="services-grid-box-info-description">AirHigh speed, fiber optic internet for you home.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="services-grid-box">
-                    <a href="#">
-                        <img src="img/services-img/img-service-energy.jpg" class="highlighted-link">
-                        <div class="services-grid-box-info" class="highlighted-link">
-                            <p class="services-grid-box-info-field">Internet</p>
-                            <p class="services-grid-box-info-product">SoftBank Air</p>
-                            <p class="services-grid-box-info-description">AirHigh speed, fiber optic internet for you home.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="services-grid-box">
-                    <a href="#">
-                        <img src="img/services-img/img-service-robot.jpg" class="highlighted-link">
-                        <div class="services-grid-box-info" class="highlighted-link">
-                            <p class="services-grid-box-info-field">Internet</p>
-                            <p class="services-grid-box-info-product">SoftBank Air</p>
-                            <p class="services-grid-box-info-description">AirHigh speed, fiber optic internet for you home.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="services-grid-box">
-                    <a href="#">
-                        <img src="img/services-img/img-service-card.jpg" class="highlighted-link">
-                        <div class="services-grid-box-info" class="highlighted-link">
-                            <p class="services-grid-box-info-field">Internet</p>
-                            <p class="services-grid-box-info-product">SoftBank Air</p>
-                            <p class="services-grid-box-info-description">AirHigh speed, fiber optic internet for you home.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="services-grid-box">
-                    <a href="#">
-                        <img src="img/services-img/img-service-accessory.jpg" class="highlighted-link">
-                        <div class="services-grid-box-info" class="highlighted-link">
-                            <p class="services-grid-box-info-field">Internet</p>
-                            <p class="services-grid-box-info-product">SoftBank Air</p>
-                            <p class="services-grid-box-info-description">AirHigh speed, fiber optic internet for you home.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="services-grid-box">
-                    <a href="#">
-                        <img src="img/services-img/img-service-biz.jpg" class="highlighted-link">
-                        <div class="services-grid-box-info" class="highlighted-link">
-                            <p class="services-grid-box-info-field">Internet</p>
-                            <p class="services-grid-box-info-product">SoftBank Air</p>
-                            <p class="services-grid-box-info-description">AirHigh speed, fiber optic internet for you home.</p>
-                        </div>
-                    </a>
-                </div>
+        <div class="services-grid-box">
+          <a href="#">
+            <img src="img/services-img/img-service-biz.jpg" class="highlighted-link">
+            <div class="services-grid-box-info" class="highlighted-link">
+              <p class="services-grid-box-info-field">Internet</p>
+              <p class="services-grid-box-info-product">SoftBank Air</p>
+              <p class="services-grid-box-info-description">AirHigh speed, fiber optic internet for you home.</p>
             </div>
+          </a>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
 
-    <!-- social media links -->
+  <!-- social media links -->
 
-    <section class="social-media">
-        <div class="social-media-content">
-            <h1>Social Media</h1>
-            <div>
-                <ul>
-                    <li><a href=""><img src="img/social-media-icon/icon-socialmedia-facebook.png" class="animated-img"></a></li>
-                    <li><a href=""><img src="img/social-media-icon/icon-socialmedia-line.png" class="animated-img"></a></li>
-                    <li><a href=""><img src="img/social-media-icon/icon-socialmedia-twitter.png" class="animated-img"></a></li>
-                    <li><a href=""><img src="img/social-media-icon/icon-socialmedia-youtube.png" class="animated-img"></a></li>
-                    <li><a href=""><img src="img/social-media-icon/icon-socialmedia-instagram.png" class="animated-img"></a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
+  <section class="social-media">
+    <div class="social-media-content">
+      <h1>Social Media</h1>
+      <div>
+        <ul>
+          <li><a href=""><img src="img/social-media-icon/icon-socialmedia-facebook.png" class="highlighted-link"></a></li>
+          <li><a href=""><img src="img/social-media-icon/icon-socialmedia-line.png" class="highlighted-link"></a></li>
+          <li><a href=""><img src="img/social-media-icon/icon-socialmedia-twitter.png" class="highlighted-link"></a></li>
+          <li><a href=""><img src="img/social-media-icon/icon-socialmedia-youtube.png" class="highlighted-link"></a></li>
+          <li><a href=""><img src="img/social-media-icon/icon-socialmedia-instagram.png" class="highlighted-link"></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
+  <!-- this section require working with back end
     <section class="news">
         <div class="news-content">
             <h1>News</h1>
-            
+
         </div>
     </section>
+-->
 
-  </body>
+  <section class="sports">
+    <div class="sports-content">
+      <h1>Sports</h1>
+      <p>Spreading joy and excitement to people around the world.</p>
+    </div>
+
+    <!-- CSS Grid Layout -->
+    <div class="sports-showcase">
+      <div class="box-1">
+        <a href=""><img class="highlighted-link" src="img/img-sports-softbankharwks-20180227.png"></a>
+      </div>
+
+      <div class="box-2">
+        <a href=""><img class="highlighted-link" src="img/img-sports-bleague.png"></a>
+      </div>
+
+      <div class="box-3">
+        <a href=""><img class="highlighted-link" src="img/img-sports-americascup.png"></a>
+      </div>
+    </div>
+  </section>
+
+</body>
+
 </html>
